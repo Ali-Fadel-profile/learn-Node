@@ -4,12 +4,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon 3-improve_development/app.js"
+    "start": "nodemon 4-express/app.js"
   },
   "author": "ali fadel",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
